@@ -2,6 +2,7 @@ import { createCanvas } from '@napi-rs/canvas';
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 import * as fs from 'fs';
+import { four, three, two } from './tips';
 
 const wrapText = function (ctx, text, x, y, maxWidth, lineHeight) {
   const words: string = text.split(' ');
@@ -97,34 +98,7 @@ const generateMainImage = async function (data: {
 };
 
 async function bootstrap() {
-  const tips = [
-    {
-      title: '5 Tipps für ein erfolgreiches Unternehmen',
-      message:
-        'Stelle sicher, dass du klare Ziele und einen soliden Geschäftsplan hast.',
-    },
-    {
-      title: '5 Tipps für ein erfolgreiches Unternehmen',
-      message: 'Investiere in ein starkes und talentiertes Team.',
-    },
-    {
-      title: '5 Tipps für ein erfolgreiches Unternehmen',
-      message:
-        'Konzentriere dich auf die Bedürfnisse deiner Kunden und stelle sicher, dass dein Produkt oder deine Dienstleistung diese Bedürfnisse erfüllt.',
-    },
-    {
-      title: '5 Tipps für ein erfolgreiches Unternehmen',
-      message:
-        'Nutze Daten und Analytics, um wichtige Entscheidungen zu treffen und die Effektivität deiner Bemühungen zu messen.',
-    },
-    {
-      title: '5 Tipps für ein erfolgreiches Unternehmen',
-      message:
-        'Konzentriere dich auf deine Stärken und überlasse die anderen Aufgaben an Experten in den jeweiligen Bereichen.',
-    },
-  ];
-
-  for (const [index, value] of tips.entries()) {
+  for (const [index, value] of four.entries()) {
     generateMainImage({
       title: value.title,
       message: value.message,
