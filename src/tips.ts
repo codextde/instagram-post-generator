@@ -103,3 +103,56 @@ export const four = [
       'Bitte um Unterstützung oder Hilfe, wenn du sie brauchst, und arbeite in einem unterstützenden Umfeld.',
   },
 ];
+
+export const five = {
+  question: '5 Lebensweisheiten',
+  answers: [
+    'Verändere dich selbst, bevor du die Welt veränderst.',
+    'Das Glück liegt in der Einfachheit.',
+    'Werde niemals zu stolz, um Hilfe anzunehmen.',
+    'Halte dich an deine Werte und Prinzipien.',
+    'Sei immer dankbar für das, was du hast.',
+  ],
+};
+
+export const six = {
+  question: '5 Tipps, um besser zu werden',
+  answers: [
+    'Setze dir klare und erreichbare Ziele.',
+    'Höre auf andere Meinungen und lerne von anderen.',
+    'Finde einen Mentor oder jemanden, von dem du lernen kannst.',
+    'Nutze Rückschläge als Möglichkeiten zur Verbesserung.',
+    'Sei offen für neue Ideen und Herangehensweisen.',
+  ],
+};
+export const seven = {
+  question: '5 Tipps, für mehr Selbstbewusstsein',
+  answers: [
+    'Erkenne deine Stärken und Fähigkeiten und setze sie bewusst ein.',
+    'Setze dir realistische Ziele und arbeite daran, sie zu erreichen.',
+    'Lass dich nicht von negativen Gedanken oder Kommentaren anderer beeinflussen.',
+    'Rede in einer festen und klaren Stimme und halte Augenkontakt.',
+    'Vermeide Vergleiche mit anderen und akzeptiere deine Einzigartigkeit.',
+  ],
+};
+export const eight = {
+  question: '5 Tipps, gegen Depression',
+  answers: [
+    'Suche professionelle Unterstützung, zum Beispiel durch einen Psychotherapeuten.',
+    'Versuche, regelmäßig zu trainieren, da körperliche Bewegung die Stimmung verbessern kann.',
+    'Vermeide den Konsum von Alkohol und anderen Drogen, da diese die Symptome einer Depression verschlimmern können.',
+    'Versuche, regelmäßig Zeit mit Freunden und Familie zu verbringen und pflege soziale Kontakte.',
+    'Erstelle einen Tagesplan, um den Alltag besser zu bewältigen und vermeide es, wichtige Aufgaben ständig zu verschieben.',
+  ],
+};
+
+export const nine = {
+  question: '5 Tipps, um fokussiert zu bleiben',
+  answers: [
+    'Suche professionelle Unterstützung, zum Beispiel durch einen Psychotherapeuten.',
+    'Versuche, regelmäßig zu trainieren, da körperliche Bewegung die Stimmung verbessern kann.',
+    'Vermeide den Konsum von Alkohol und anderen Drogen, da diese die Symptome einer Depression verschlimmern können.',
+    'Versuche, regelmäßig Zeit mit Freunden und Familie zu verbringen und pflege soziale Kontakte.',
+    'Erstelle einen Tagesplan, um den Alltag besser zu bewältigen und vermeide es, wichtige Aufgaben ständig zu verschieben.',
+  ],
+};

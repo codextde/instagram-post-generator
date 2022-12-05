@@ -2,7 +2,7 @@ import { createCanvas } from '@napi-rs/canvas';
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 import * as fs from 'fs';
-import { four, three, two } from './tips';
+import { eight, five, four, seven, six, three, two } from './tips';
 
 const wrapText = function (ctx, text, x, y, maxWidth, lineHeight) {
   const words: string = text.split(' ');
@@ -98,10 +98,10 @@ const generateMainImage = async function (data: {
 };
 
 async function bootstrap() {
-  for (const [index, value] of four.entries()) {
+  for (const [index, value] of eight.answers.entries()) {
     generateMainImage({
-      title: value.title,
-      message: value.message,
+      title: eight.question,
+      message: value,
       number: index + 1,
       bottomText: '@businessadvisor.official',
       size: { width: 1000, height: 1000 },
